@@ -4,7 +4,8 @@
 using namespace std;
 
 #include "auto.h"
-class Fondo{
+#include "enemigo.h"
+/*class Fondo{
 private:
     int x;
     int y;
@@ -32,38 +33,42 @@ void Fondo::dibujar(BITMAP* lienzo)
 		if(y <= fondo->h*-1 or y >= fondo->h)
 		{	y = 0;	}
 
-}
+}*/
 
 int main()
 {
 
-   allegro_init();///inicia la libreria allegro
+    allegro_init();///inicia la libreria allegro
 
-   install_keyboard();///comando para que podamos utilizar el teclado
+    install_keyboard();///comando para que podamos utilizar el teclado
 
-   set_color_depth(32);/// establece la profundidad de color global de los píxeles.
-   set_gfx_mode(GFX_AUTODETECT_WINDOWED, 600, 600, 0, 0);///detecta el modo grafico de windows
+    set_color_depth(32);/// establece la profundidad de color global de los píxeles.
+    set_gfx_mode(GFX_AUTODETECT_WINDOWED, 600, 600, 0, 0);///detecta el modo grafico de windows
 
-  BITMAP*buffer= create_bitmap(SCREEN_W,SCREEN_H);///se crea una pantalla en la cual se imprimiran las imagenes
+    BITMAP*buffer= create_bitmap(SCREEN_W,SCREEN_H);///se crea una pantalla en la cual se imprimiran las imagenes
 
-  Auto a;
-Fondo f;
-   while(!key[KEY_ESC])
-   {
-       clear_to_color(buffer,0xBC70B2);///limpa la pantalla
+    Auto a;
+    Enemigo e;
+//Fondo f;
+    while(!key[KEY_ESC])
+    {
+        clear_to_color(buffer,0xBC70B2);///limpa la pantalla
 
-       f.dibujar(buffer);
-       a.dibujar(buffer);
-       a.mover();
+        a.dibujar(buffer);
+        a.mover();
 
-       blit(buffer,screen,0,0,0,0,600,600);///imprime la pantalla en la cual se imprimiran las imagenes
+        e.dibujar(buffer);
+        e.mover(buffer);
 
-   }
+        blit(buffer,screen,0,0,0,0,600,600);///imprime la pantalla en la cual se imprimiran las imagenes
+        ///rest(5);///le da una pausa al programa
 
+    }
 
+    destroy_bitmap(buffer);///cuando termina el programa destruye el buffer,se utiliza para liberar la memoria utilizada por el bitmap
 
 //a.dibujar(buffer);
 
-return 0;
+    return 0;
 }
 END_OF_MAIN(); /// para que allegro sepa donde termina el main

@@ -4,8 +4,12 @@ Auto::Auto()
 {
     _x=(SCREEN_W/2.2);
     _y=(SCREEN_H/1.2);
-    ima_auto=load_bitmap("auto1.bmp",NULL);
+    ima_auto=load_bitmap("auto1bis.bmp",NULL);
 }
+Auto::~Auto(){
+    destroy_bitmap(ima_auto);
+}
+
 
  void Auto::dibujar(BITMAP* buffer)
  {
@@ -13,7 +17,7 @@ Auto::Auto()
  }
  void Auto:: mover(){
 
-    if (key[KEY_UP] && _y>0)
+    if (key[KEY_UP] )
         _y--;
     if (key[KEY_DOWN] && _y<SCREEN_H-ima_auto->h )
         _y++;
