@@ -60,8 +60,17 @@ int main()
         e.dibujar(buffer);
         e.mover(buffer);
 
+if(e.getX()+50 >= a.getX() && e.getX()<=a.getX()+40 && e.getY()+45>= a.getY() && e.getY()<= a.getY()+50)///
+{
+
+
+ clear_to_color(buffer,0x000000);
+ draw_sprite(screen,buffer,0,0);
+
+
+}
         blit(buffer,screen,0,0,0,0,600,600);///imprime la pantalla en la cual se imprimiran las imagenes
-        ///rest(5);///le da una pausa al programa
+//        rest(1);///le da una pausa al programa
 
     }
 

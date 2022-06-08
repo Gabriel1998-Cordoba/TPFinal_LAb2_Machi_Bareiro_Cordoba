@@ -22,14 +22,14 @@ void Enemigo::mover(BITMAP*buffer)
     if(alarma.timer(10))///cada 10 segundos aumenta la posicion en "Y" del enemigo
     {
         //_x+=dx;
-        _y+=dx;
+        _y+=dy;
 
 
 
    } if(_y >=600)  ///esta condicion determina hasta donde hace el movimiento de caida el enemigo
         {
             _y=0;
-            cont=-1;
+//            cont=-1;
         }
 }
 
