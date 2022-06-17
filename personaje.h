@@ -7,14 +7,17 @@ class Personaje
 protected:
     int _x;
     int _y;
-    int vida;
+    int _vida;
 public:
     Personaje();
     virtual void dibujar(BITMAP *);
     virtual void mover();
     void setX(int );
     void setY(int );
+    void setVida (int );
+int getVida();
     int getX();
+
     int getY();
 
 };
