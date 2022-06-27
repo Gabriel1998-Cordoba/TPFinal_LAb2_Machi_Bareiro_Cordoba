@@ -11,14 +11,13 @@ protected:
     BITMAP* ima_enemy;
     int dx;
     int dy;
-
     Alarma alarma;
-    int cont;
 public:
     Enemigo();
     ~Enemigo();
     int getDX(){return dx;}
     void dibujar (BITMAP*);
     void mover (BITMAP*);
+    void destruir();
  };
 #endif // ENEMIGO_H_INCLUDED

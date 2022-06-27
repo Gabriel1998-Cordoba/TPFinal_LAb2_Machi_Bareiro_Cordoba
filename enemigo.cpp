@@ -4,11 +4,10 @@
 Enemigo::Enemigo()
 {
     _x=281;
-    _y=0;
+    _y=-100;
     ima_enemy=load_bitmap("imagenes/auto2.bmp",NULL);
     dx=340;
     dy=2;
-    cont =1;
 }
 
 
@@ -38,7 +37,7 @@ void Enemigo::mover(BITMAP*buffer)
         {
         case 0:
             _x=281;
-            break;//
+            break;
         case 1:
             _x=dx;
             break;
@@ -49,4 +48,8 @@ void Enemigo::mover(BITMAP*buffer)
 Enemigo::~Enemigo()
 {
     destroy_bitmap(ima_enemy);
+}
+void Enemigo::destruir()
+{
+     destroy_bitmap(ima_enemy);
 }

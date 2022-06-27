@@ -43,6 +43,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="personaje.cpp" />
 		<Unit filename="personaje.h" />
+		<Unit filename="zombie.cpp" />
+		<Unit filename="zombie.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

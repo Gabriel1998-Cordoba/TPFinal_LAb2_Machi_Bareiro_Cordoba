@@ -4,14 +4,9 @@
 using namespace std;
 
 
-struct coord{
-int x;
-int y;
-};
-
-
 #include "auto.h"
 #include "enemigo.h"
+#include "zombie.h"
 #include "fondo.h"
 
 int main()
@@ -25,10 +20,13 @@ int main()
     set_gfx_mode(GFX_AUTODETECT_WINDOWED, 600, 600, 0, 0);///detecta el modo grafico de windows
 
     BITMAP*buffer= create_bitmap(SCREEN_W,SCREEN_H);///se crea una pantalla en la cual se imprimiran las imagenes
-
+///INICIALIZA CADA OBJETO
     Auto a;
     Enemigo e;
+    Zombie z;
     Fondo f;
+///
+    int puntaje=0;
 
     bool finDelJuego=false;
 
@@ -40,17 +38,28 @@ int main()
         f.dibujar(buffer);
         a.dibujar(buffer);
         a.mover();
+        z.dibujar(buffer);
+        z.mover(buffer);
         e.dibujar(buffer);
         e.mover(buffer);
 
-        if((e.getX()+50 >= a.getX() && e.getX()<=a.getX()+50) && (e.getY()+50>= a.getY() && e.getY()<= a.getY()+50))///
+
+
+        if((e.getX()+50 >= a.getX() && e.getX()<=a.getX()+50) && (e.getY()+50>= a.getY() && e.getY()<= a.getY()+50))/// colicion de coordenadas
         {
-            finDelJuego=true;
+           finDelJuego=true;
+
         }
+
+        textout_centre_ex(buffer,font,"PUNTAJE",120,300,0xFF0000,0x220303);///
+        textprintf(buffer,font,120,320,-1,"%d",puntaje);///imprimen texto en la pantalla
+
         blit(buffer,screen,0,0,0,0,600,600);///imprime la pantalla en la cual se imprimiran las imagenes
     }
-//        rest(1);///le da una pausa al programa
-destroy_bitmap(buffer);///cuando termina el programa destruye el buffer,se utiliza para liberar la memoria utilizada por el bitmap
+
+    rest(5);///le da una pausa al programa
+    destroy_bitmap(buffer);///cuando termina el programa destruye el buffer,se utiliza para liberar la memoria utilizada por el bitmap
+
 //a.dibujar(buffer);
     return 0;
 }
