@@ -30,7 +30,6 @@ int main()
     Menu m;
 ///
     int puntaje=0;
-
     bool finDelJuego=false;
 
     while( !finDelJuego )
@@ -43,8 +42,9 @@ int main()
         if(op==1)
         {
 
-while(!key[KEY_ESC]){
- draw_sprite(screen,buffer,0,0);
+while(!key[KEY_ESC] && !finDelJuego){
+
+                draw_sprite(screen,buffer,0,0);
                 clear_to_color(buffer,0xBC70B2);///limpia la pantalla
 
                 f.dibujar(buffer);
