@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1656251634 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\main.cpp
+1656978986 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\main.cpp
 	<iostream>
 	<allegro.h>
 	"auto.h"
 	"enemigo.h"
 	"zombie.h"
 	"fondo.h"
+	"Menu.h"
 
 1655483745 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\auto.cpp
 	"auto.h"
@@ -45,4 +46,10 @@
 	"personaje.h"
 	"alarma.h"
 	"allegro.h"
+
+1656976422 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.h
+	<allegro.h>
+
+1656978256 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.cpp
+	"menu.h"
 
