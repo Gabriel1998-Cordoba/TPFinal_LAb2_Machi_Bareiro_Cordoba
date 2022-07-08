@@ -20,11 +20,11 @@ bool Menu::sobreItem(int i)
 
 Menu::Menu()
 {
-    fondoBase = load_bitmap("fondo0.bmp",NULL);
-    fondos[0] = load_bitmap("fondo0.bmp",NULL);
-    fondos[1] = load_bitmap("fondo1.bmp",NULL);
-    fondos[2] = load_bitmap("fondo2.bmp",NULL);
-    fondos[3] = load_bitmap("fondo3.bmp",NULL);
+    fondoBase = load_bitmap("imagenes/fondoMenuBase2.bmp",NULL);
+    fondos[0] = load_bitmap("imagenes/fondoMenu4.bmp",NULL);
+    fondos[1] = load_bitmap("imagenes/fondoMenu1bis.bmp",NULL);
+    fondos[2] = load_bitmap("imagenes/fondoMenu2.bmp",NULL);
+    fondos[3] = load_bitmap("imagenes/fondoMenu3.bmp",NULL);
     cursor =load_bitmap("puntero.bmp",NULL);
 //    over  = load_bitmap("imagenes/gameover.bmp",NULL);
 //    imag_vida =load_bitmap("imagenes/vidac.bmp",NULL);
@@ -40,7 +40,7 @@ int Menu::draw(BITMAP*lienzo)
 {
     draw_sprite(lienzo,fondoBase,0,0);
 
-     if(mouse_x > 440 && mouse_x < 745 && mouse_y > 288 && mouse_y < 333)
+     if(mouse_x > 191 && mouse_x < 393 && mouse_y > 258 && mouse_y < 288 )
     {
         draw_sprite(lienzo,fondos[1],0,0);
 
@@ -48,8 +48,34 @@ int Menu::draw(BITMAP*lienzo)
         {
             return 1;
         }
+    }if (mouse_x > 200 && mouse_x < 400 && mouse_y > 323 && mouse_y < 353)
+    {
+               draw_sprite(lienzo,fondos[2],0,0);
+
+        if(mouse_b & 1)
+        {
+            return 2;
+        }
     }
-//    int ret=-1;
+    if (mouse_x > 200 && mouse_x < 400 && mouse_y > 323 && mouse_y < 353)
+    {
+               draw_sprite(lienzo,fondos[2],0,0);
+
+        if(mouse_b & 1)
+        {
+            return 2;
+        }
+    }
+    if (mouse_x > 217 && mouse_x < 361 && mouse_y > 467 && mouse_y < 491)
+    {
+               draw_sprite(lienzo,fondos[0],0,0);
+
+        if(mouse_b & 1)
+        {
+            return 4;
+        }
+    }
+
 //    int i;
 //    while(ret < 0)
 //    {

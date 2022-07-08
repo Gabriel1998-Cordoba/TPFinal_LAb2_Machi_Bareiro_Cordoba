@@ -9,6 +9,7 @@ using namespace std;
 #include "zombie.h"
 #include "fondo.h"
 #include "Menu.h"
+#include <stdio.h>
 
 int main()
 {
@@ -28,11 +29,13 @@ int main()
     Zombie z;
     Fondo f;
     Menu m;
+    Alarma alarm;
 ///
-    int puntaje=0;
+
     bool finDelJuego=false;
 
-    while( !finDelJuego )
+
+    while( !key[KEY_ESC] && !finDelJuego)
     {
 
         clear_to_color(buffer,0xBC70B2);///limpia la pantalla
@@ -41,35 +44,42 @@ int main()
 
         if(op==1)
         {
+            int puntaje=0;
+            int contadorVueltas=0;
 
-while(!key[KEY_ESC] && !finDelJuego){
+            while(!key[KEY_ESC] && !finDelJuego)
+            {
 
-                draw_sprite(screen,buffer,0,0);
+                draw_sprite(screen,buffer,0,0);//
                 clear_to_color(buffer,0xBC70B2);///limpia la pantalla
 
                 f.dibujar(buffer);
+
                 a.dibujar(buffer);
                 a.mover();
+
                 z.dibujar(buffer);
                 z.mover(buffer);
+
                 e.dibujar(buffer);
                 e.mover(buffer);
+
 
                 if((e.getX()+50 >= a.getX() && e.getX()<=a.getX()+50) && (e.getY()+50>= a.getY() && e.getY()<= a.getY()+50))/// colicion de coordenadas
                 {
                     finDelJuego=true;
 
                 }
-        }
+                if((z.getX()+50 >= a.getX() && z.getX()<=a.getX()+50) && (z.getY()+50>= a.getY() && z.getY()<= a.getY()+50))/// colicion de coordenadas
+                {
+                    finDelJuego=true;
+
+                }
                 textout_centre_ex(buffer,font,"PUNTAJE",120,300,0xFF0000,0x220303);///
                 textprintf(buffer,font,120,320,-1,"%d",puntaje);///imprimen texto en la pantalla
-
-
+            }
         }
-
-
-
-
+        if(op==4) finDelJuego=true;
 
         blit(buffer,screen,0,0,0,0,600,600);///imprime la pantalla en la cual se imprimiran las imagenes
     }

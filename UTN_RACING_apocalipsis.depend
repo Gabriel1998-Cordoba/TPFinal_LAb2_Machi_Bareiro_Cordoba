@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1657060439 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\main.cpp
+1657321845 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\main.cpp
 	<iostream>
 	<allegro.h>
 	"auto.h"
@@ -7,6 +7,7 @@
 	"zombie.h"
 	"fondo.h"
 	"Menu.h"
+	<stdio.h>
 
 1655483745 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\auto.cpp
 	"auto.h"
@@ -21,7 +22,7 @@
 	<allegro.h>
 	"personaje.h"
 
-1656252413 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\enemigo.cpp
+1657318102 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\enemigo.cpp
 	"enemigo.h"
 
 1656251248 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\enemigo.h
@@ -33,7 +34,7 @@
 1654527730 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\alarma.cpp
 	"alarma.h"
 
-1655486336 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\fondo.cpp
+1657231289 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\fondo.cpp
 	"fondo.h"
 
 1655486336 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\fondo.h
@@ -50,6 +51,6 @@
 1656976422 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.h
 	<allegro.h>
 
-1656978256 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.cpp
+1657321768 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.cpp
 	"menu.h"
 
