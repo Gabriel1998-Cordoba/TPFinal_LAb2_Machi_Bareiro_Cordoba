@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1657321845 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\main.cpp
+	<iostream>
+	<allegro.h>
+	"auto.h"
+	"enemigo.h"
+	"zombie.h"
+	"fondo.h"
+	"Menu.h"
+	<stdio.h>
+
+1655483745 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\auto.cpp
+	"auto.h"
+
+1655048256 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\personaje.cpp
+	"personaje.h"
+
+1655046570 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\personaje.h
+	<allegro.h>
+
+1654643180 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\auto.h
+	<allegro.h>
+	"personaje.h"
+
+1657318102 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\enemigo.cpp
+	"enemigo.h"
+
+1656251248 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\enemigo.h
+	"personaje.h"
+	"alarma.h"
+
+1654527730 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\alarma.h
+
+1654527730 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\alarma.cpp
+	"alarma.h"
+
+1657231289 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\fondo.cpp
+	"fondo.h"
+
+1655486336 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\fondo.h
+	<allegro.h>
+
+1656253243 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\zombie.cpp
+	"zombie.h"
+
+1656251248 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\zombie.h
+	"personaje.h"
+	"alarma.h"
+	"allegro.h"
+
+1656976422 c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.h
+	<allegro.h>
+
+1657321768 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.cpp
+	"menu.h"
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.cpp
+	"alarma.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.h
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.cpp
+	"auto.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.h
+	<allegro.h>
+	"personaje.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.h
+	<allegro.h>
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.cpp
+	"enemigo.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.h
+	"personaje.h"
+	"alarma.h"
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.cpp
+	"fondo.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.h
+	<allegro.h>
+
+1657913619 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\main.cpp
+	<iostream>
+	<allegro.h>
+	"auto.h"
+	"enemigo.h"
+	"zombie.h"
+	"fondo.h"
+	"Menu.h"
+	"gameover.h"
+	"puntaje.h"
+	<stdio.h>
+
+1657913712 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.h
+	"personaje.h"
+	"alarma.h"
+	"allegro.h"
+
+1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.h
+	<allegro.h>
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.cpp
+	"menu.h"
+
+1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.cpp
+	"personaje.h"
+
+1657913694 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.cpp
+	"zombie.h"
+
+1657913598 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\gameover.cpp
+	"gameover.h"
+
+1657913260 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\gameover.h
+	<allegro.h>
+
+1657913321 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\puntaje.cpp
+	<iostream>
+	<string>
+	<cstdio>
+	"puntaje.h"
+	"allegro.h"
+
+1657913296 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\puntaje.h
+	<iostream>
+	<string>
+	<cstdio>
+	"allegro.h"
+
