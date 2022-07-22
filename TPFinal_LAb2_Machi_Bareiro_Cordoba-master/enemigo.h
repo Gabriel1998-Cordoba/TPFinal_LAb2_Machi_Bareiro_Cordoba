@@ -1,5 +1,6 @@
 #ifndef ENEMIGO_H_INCLUDED
 #define ENEMIGO_H_INCLUDED
+
  #include "personaje.h"
 #include "alarma.h"
 
@@ -15,9 +16,9 @@ protected:
 public:
     Enemigo();
     ~Enemigo();
-    int getDX(){return dx;}
+   int getDX(){return dx;}
     void dibujar (BITMAP*);
     void mover (BITMAP*);
-    void destruir();
+
  };
 #endif // ENEMIGO_H_INCLUDED

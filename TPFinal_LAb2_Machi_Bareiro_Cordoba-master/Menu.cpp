@@ -46,24 +46,24 @@ int Menu::draw(BITMAP*lienzo)
 
         if(mouse_b & 1)
         {
-            return 1;
+            return 1; ///Inicia el juego
         }
     }if (mouse_x > 200 && mouse_x < 400 && mouse_y > 323 && mouse_y < 353)
     {
                draw_sprite(lienzo,fondos[2],0,0);
 
-        if(mouse_b & 1)
+        if(mouse_b & 2)
         {
             return 2;
         }
     }
-    if (mouse_x > 200 && mouse_x < 400 && mouse_y > 323 && mouse_y < 353)
+    if (mouse_x > 217 && mouse_x < 361 && mouse_y > 390 && mouse_y < 415)
     {
-               draw_sprite(lienzo,fondos[2],0,0);
+               draw_sprite(lienzo,fondos[3],0,0);
 
         if(mouse_b & 1)
         {
-            return 2;
+            return 3;
         }
     }
     if (mouse_x > 217 && mouse_x < 361 && mouse_y > 467 && mouse_y < 491)

@@ -10,14 +10,11 @@ protected:
     int _vida;
 public:
     Personaje();
-    virtual void dibujar(BITMAP *);
-    virtual void mover();
     void setX(int );
     void setY(int );
-    void setVida (int );
+    //void setVida (int );
 int getVida();
     int getX();
-
     int getY();
 
 };

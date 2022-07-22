@@ -54,35 +54,35 @@
 1657321768 source:c:\users\user\onedrive\documentos\utn_racing_apocalipsis\menu.cpp
 	"menu.h"
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.cpp
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.cpp
 	"alarma.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.h
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.h
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.cpp
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.cpp
 	"auto.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.h
+1658449841 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\auto.h
 	<allegro.h>
 	"personaje.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.h
+1658449867 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.h
 	<allegro.h>
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.cpp
+1658435423 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.cpp
 	"enemigo.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.h
+1658450175 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.h
 	"personaje.h"
 	"alarma.h"
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.cpp
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.cpp
 	"fondo.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.h
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.h
 	<allegro.h>
 
-1657913619 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\main.cpp
+1658437047 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\main.cpp
 	<iostream>
 	<allegro.h>
 	"auto.h"
@@ -92,41 +92,229 @@
 	"Menu.h"
 	"gameover.h"
 	"puntaje.h"
+	"estadisticas.h"
 	<stdio.h>
 
-1657913712 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.h
+1658449829 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.h
 	"personaje.h"
 	"alarma.h"
 	"allegro.h"
 
-1657307556 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.h
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.h
 	<allegro.h>
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.cpp
+1658275787 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\menu.cpp
 	"menu.h"
 
-1657307556 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.cpp
+1658449879 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.cpp
 	"personaje.h"
 
-1657913694 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.cpp
+1658418146 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.cpp
 	"zombie.h"
 
-1657913598 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\gameover.cpp
+1658418639 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\gameover.cpp
 	"gameover.h"
 
-1657913260 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\gameover.h
+1658418657 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\gameover.h
 	<allegro.h>
 
-1657913321 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\puntaje.cpp
+1658453721 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\puntaje.cpp
 	<iostream>
 	<string>
 	<cstdio>
 	"puntaje.h"
 	"allegro.h"
 
-1657913296 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\puntaje.h
+1658454100 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\puntaje.h
 	<iostream>
 	<string>
 	<cstdio>
 	"allegro.h"
+
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.cpp
+	"alarma.h"
+
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.h
+
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\auto.cpp
+	"auto.h"
+
+1658270559 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\auto.h
+	<allegro.h>
+	"personaje.h"
+
+1658270229 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.h
+	<allegro.h>
+
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.cpp
+	"enemigo.h"
+
+1658270302 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.h
+	"personaje.h"
+	"alarma.h"
+
+1657900920 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.cpp
+	"fondo.h"
+
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.h
+	<allegro.h>
+
+1658363443 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\main.cpp
+	<iostream>
+	<allegro.h>
+	"auto.h"
+	"enemigo.h"
+	"zombie.h"
+	"fondo.h"
+	"Menu.h"
+	"gameover.h"
+	"puntaje.h"
+	"estadisticas.h"
+	<stdio.h>
+
+1658270314 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.h
+	"personaje.h"
+	"alarma.h"
+	"allegro.h"
+
+1657900920 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\menu.h
+	<allegro.h>
+
+1658352393 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\include\gameover.h
+	<allegro.h>
+
+1658360197 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\include\puntaje.h
+	<iostream>
+	<string>
+	<cstdio>
+	"allegro.h"
+
+1658275787 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\menu.cpp
+	"menu.h"
+
+1658270228 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.cpp
+	"personaje.h"
+
+1658352393 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\src\gameover.cpp
+	"gameover.h"
+
+1658361625 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\src\puntaje.cpp
+	<iostream>
+	<string>
+	<cstdio>
+	"puntaje.h"
+	"allegro.h"
+
+1658269654 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.cpp
+	"zombie.h"
+
+1658361233 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\include\estadisticas.h
+	"puntaje.h"
+	<allegro.h>
+
+1658363887 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\tpfinal_lab2_machi_bareiro_cordoba-master\src\estadisticas.cpp
+	<iostream>
+	<allegro.h>
+	"puntaje.h"
+	"estadisticas.h"
+	<stdio.h>
+
+1657900920 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.cpp
+	"alarma.h"
+
+1657900920 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\alarma.h
+
+1657900920 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\auto.cpp
+	"auto.h"
+
+1658270559 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\auto.h
+	<allegro.h>
+	"personaje.h"
+
+1658423239 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.h
+	<allegro.h>
+
+1658435423 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.cpp
+	"enemigo.h"
+
+1658423239 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\enemigo.h
+	"personaje.h"
+	"alarma.h"
+
+1657900920 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.cpp
+	"fondo.h"
+
+1657900920 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\fondo.h
+	<allegro.h>
+
+1658436662 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\main.cpp
+	<iostream>
+	<allegro.h>
+	"auto.h"
+	"enemigo.h"
+	"zombie.h"
+	"fondo.h"
+	"Menu.h"
+	"gameover.h"
+	"puntaje.h"
+	"estadisticas.h"
+	<stdio.h>
+
+1658270314 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.h
+	"personaje.h"
+	"alarma.h"
+	"allegro.h"
+
+1657900920 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\menu.h
+	<allegro.h>
+
+1658418657 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\include\gameover.h
+	<allegro.h>
+
+1658419703 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\include\puntaje.h
+	<iostream>
+	<string>
+	<cstdio>
+	"allegro.h"
+
+1658361233 c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\include\estadisticas.h
+	"puntaje.h"
+	<allegro.h>
+
+1658275787 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\menu.cpp
+	"menu.h"
+
+1658270228 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\personaje.cpp
+	"personaje.h"
+
+1658423239 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\src\estadisticas.cpp
+	<iostream>
+	<allegro.h>
+	"puntaje.h"
+	"estadisticas.h"
+	<stdio.h>
+
+1658418639 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\src\gameover.cpp
+	"gameover.h"
+
+1658419538 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\src\puntaje.cpp
+	<iostream>
+	<string>
+	<cstdio>
+	"puntaje.h"
+	"allegro.h"
+
+1658418146 source:c:\users\user\onedrive\documentos\facultad 2021\lab2_2022\tpfinal_lab2_machi_bareiro_cordoba-master\zombie.cpp
+	"zombie.h"
+
+1658453721 source:c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\src\estadisticas.cpp
+	<iostream>
+	<allegro.h>
+	"puntaje.h"
+	"estadisticas.h"
+	<stdio.h>
+
+1658446256 c:\users\usuario\desktop\tpfinal_lab2_machi_bareiro_cordoba-master\include\estadisticas.h
+	"puntaje.h"
+	<allegro.h>
 

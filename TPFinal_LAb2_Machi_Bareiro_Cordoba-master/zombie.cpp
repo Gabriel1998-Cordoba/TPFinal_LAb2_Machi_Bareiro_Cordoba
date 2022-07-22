@@ -5,6 +5,7 @@
 Zombie::Zombie()
 {
     ima_zombie=load_bitmap("imagenes/zombie.bmp",NULL);
+    ima_choque = load_bitmap("imagenes/zombiexplosion.bmp", NULL);
     _x=350;
     _y= -250;
 
@@ -12,6 +13,8 @@ Zombie::Zombie()
 Zombie::~Zombie()
 {
 destroy_bitmap(ima_zombie);
+destroy_bitmap(ima_choque);
+
 }
 
 
@@ -23,9 +26,6 @@ void Zombie::dibujar(BITMAP *lienzo)
 }
 
 void Zombie::dibujarChoque(BITMAP *lienzo){
-        ima_choque = load_bitmap("imagenes/zombiexplosion.bmp", NULL);
-        _x=350;
-        _y= -250;
         draw_sprite(lienzo,ima_choque,_x,_y);
 }
 

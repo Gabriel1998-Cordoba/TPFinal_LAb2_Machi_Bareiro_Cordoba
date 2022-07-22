@@ -11,7 +11,7 @@ private:
     BITMAP*gameover;
 public:
     Gameover();
-///~Gameover();
+~Gameover();
     void dibujar(BITMAP*);
 
 

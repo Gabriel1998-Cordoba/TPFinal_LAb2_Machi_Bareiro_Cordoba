@@ -49,7 +49,4 @@ Enemigo::~Enemigo()
 {
     destroy_bitmap(ima_enemy);
 }
-void Enemigo::destruir()
-{
-     destroy_bitmap(ima_enemy);
-}
+
